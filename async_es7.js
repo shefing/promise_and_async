@@ -13,7 +13,7 @@ async function stupidPromise () {
       return("hello fulfilled promise");
       } 
   else {
-    return Promise.reject("hello rejected promise");
+    throw ("hello rejected promise");
   }
 }
 
