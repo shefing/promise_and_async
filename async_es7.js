@@ -20,7 +20,7 @@ async function stupidPromise () {
 async function main() {
   try {
     var quote = await getQuote();
-    log("main after quote promise");
+    log("main after get quote ");
     log(chalk.yellow(quote));
     var prom = await stupidPromise();
     log("prom = ", prom);
